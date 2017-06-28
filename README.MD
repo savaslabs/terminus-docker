@@ -7,4 +7,5 @@ TODO
 
 https://pantheon.io/docs/machine-tokens/
 
-eg docker run --name="terminus-authed" terminus auth:login --machine-token=your token
+eg docker run --rm term-authed
+this is the terminus command
