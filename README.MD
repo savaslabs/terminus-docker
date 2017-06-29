@@ -15,13 +15,17 @@ First off grab a [machine token from Pantheon](https://pantheon.io/docs/machine-
 ``` RUN terminus auth:login --machine-token=YOUR MACHINE TOKEN HERE ```
 
 Build the image by running
- ```docker build -t terminus-image-name .``` in your project root. 
+
+ ```$ docker build -t terminus-image-name .``` in your project root. 
 
 After building the image, I recommend running the  container with the following command:
 
 ``` $ docker run -it -d -v $SSH_AUTH_SOCK:/ssh-agent -e SSH_AUTH_SOCK=/ssh-agent terminus-image bash```
 
-This will enable your container to use your ssh key. Running ``` $ docker ps ``` will show us our knew container running.
+This will enable your container to use your ssh key. Running ``` $ docker ps ``` will show us our knew container running:
+
+```1db0277c83a7        terminus-image      "/docker-entrypoin..."   13 minutes ago      Up 13 minutes keen_babbage'''
+
 
 To run a terminus command:
 
