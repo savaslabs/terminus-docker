@@ -16,7 +16,7 @@ First off grab a [machine token from Pantheon](https://pantheon.io/docs/machine-
 
 Build the image by running
 
- ```$ docker build -t terminus-image-name .``` in your project root. 
+ ```$ docker build -t terminus-image-name .``` in your cloned repo. 
 
 After building the image, I recommend running the  container with the following command:
 
