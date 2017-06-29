@@ -24,7 +24,7 @@ After building the image, I recommend running the  container with the following 
 
 This will enable your container to use your ssh key. Running ``` $ docker ps ``` will show us our knew container running:
 
-```1db0277c83a7        terminus-image      "/docker-entrypoin..."   13 minutes ago      Up 13 minutes keen_babbage'''
+```1db0277c83a7        terminus-image      "/docker-entrypoin..."   13 minutes ago      Up 13 minutes keen_babbage```
 
 
 To run a terminus command:
