@@ -1,5 +1,9 @@
 # Terminus Docker
 
+[![Docker Pulls](https://img.shields.io/docker/pulls/savaslabs/terminus-docker.svg)](https://hub.docker.com/r/savaslabs/terminus-docker/)
+[![Docker Automated build](https://img.shields.io/docker/automated/savaslabs/terminus-docker.svg)](https://hub.docker.com/r/savaslabs/terminus-docker/)
+[![Docker Build Statu](https://img.shields.io/docker/build/savaslabs/terminus-docker.svg)](https://hub.docker.com/r/savaslabs/terminus-docker)
+
 ## Usage
 
 ### Docker Compose example
